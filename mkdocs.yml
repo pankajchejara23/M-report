@@ -1,0 +1,27 @@
+site_name: Analysis report for 16S amplicon sequences 
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.footer
+    - header.autohide
+plugins:
+    - search
+    - glightbox
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Host characteristics: host.md
+  - Microbial composition: microbes.md
+  - Dimension reduction: assoc.md
+  - Biomarkers: biomarkers.md
+  - Prediction: ml.md
